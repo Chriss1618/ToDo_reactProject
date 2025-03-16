@@ -7,7 +7,6 @@ import {TodoList} from './components/TodoList'
 import {useState, useEffect} from 'react'
 
 function App() {
-
   //variables 
 
   /* 
@@ -20,7 +19,6 @@ function App() {
   const [todos,setTodos] = useState( [])
 
   const [selectedTab, setSelectedTab] = useState( 'All')
-
   
   function handleAddTodo( newTodo ){
     const newTodosList = [...todos, {input: newTodo, completed: false}]
